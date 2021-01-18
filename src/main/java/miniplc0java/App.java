@@ -15,11 +15,6 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         try {
-            String a = "1.0e10";
-            double b = Double.parseDouble(a);
-            long l = Double.doubleToLongBits(b);
-            System.out.println(b);
-            System.out.println(Long.toBinaryString(l));
 
 
             InputStream inputStream = new FileInputStream(args[0]);
